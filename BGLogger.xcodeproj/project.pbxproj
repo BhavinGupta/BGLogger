@@ -49,8 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				BDA07CA81EFE3B8000C6DAA2 /* BGLogger.h */,
-				BDA07CA91EFE3B8000C6DAA2 /* Info.plist */,
 				BDA07CB01EFE3C4C00C6DAA2 /* Logging.swift */,
+				BDA07CA91EFE3B8000C6DAA2 /* Info.plist */,
 			);
 			path = BGLogger;
 			sourceTree = "<group>";
@@ -191,6 +191,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -237,6 +238,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -310,6 +312,7 @@
 				BDA07CAF1EFE3B8000C6DAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

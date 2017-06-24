@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   #2.
   s.version      = "1.0.0"
   #3.
-  s.summary      = "BGLogger is a simple printing logger for your project in debug mode 		    when set to true value and while production just set the logger to 			    false so the logger gets disabled in whole project for better build 		    while showing the demo."
+  s.summary      = "BGLogger is a simple printing logger for your project in debug mode."
   #4.
   s.homepage     = "https://easypay.in"
   #5.
@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   #7.
   s.platform     = :ios, "8.0"
   #8.
-  s.source       = { :git => "", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/BhavinGupta/BGLogger.git", 
+		     :tag => s.version.to_s }
   #9.
   s.source_files  = "BGLogger", "BGLogger/**/*.{h,m,swift}"
   #10.
